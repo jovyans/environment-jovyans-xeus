@@ -1,0 +1,13 @@
+name: xeus
+channels:
+  - conda-forge
+dependencies:
+  - xeus-sql
+  - soci-sqlite
+  - xeus-cling
+  - xtensor
+  - xtensor-blas
+  - pip
+  - pip:
+    - rise
+    - nbgitpuller
